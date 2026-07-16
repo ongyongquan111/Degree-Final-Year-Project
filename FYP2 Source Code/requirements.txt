@@ -1,0 +1,11 @@
+numpy<2
+opencv-python==4.9.0.80
+Pillow
+matplotlib
+seaborn
+scikit-learn
+joblib
+flask
+werkzeug
+safetensors
+pandas

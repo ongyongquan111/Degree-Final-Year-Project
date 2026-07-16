@@ -1,0 +1,11 @@
+scope,method,sample_count,accuracy_percent,balanced_accuracy_percent,precision_fake_percent,recall_fake_percent,f1_fake_percent,confusion_matrix_real_fake
+validation_raw_baseline,efficientnet_threshold_0_5,3212,44.3649,44.3649,41.5657,27.7709,33.296,"[[979, 627], [1160, 446]]"
+untouched_test_raw_baseline,efficientnet_threshold_0_5,3212,44.1781,44.1781,41.7621,29.5143,34.5859,"[[945, 661], [1132, 474]]"
+validation_five_fold_out_of_fold,logistic_score_calibration,3212,57.0361,57.0361,56.6237,60.1494,58.3333,"[[866, 740], [640, 966]]"
+validation_five_fold_out_of_fold,logistic_forensic_no_flip,3212,83.0324,83.0324,85.2492,79.8879,82.4815,"[[1384, 222], [323, 1283]]"
+validation_five_fold_out_of_fold,histogram_forensic_no_flip,3212,88.9477,88.9477,88.3507,89.726,89.0331,"[[1416, 190], [165, 1441]]"
+validation_five_fold_out_of_fold,random_forest_forensic_no_flip,3212,85.274,85.274,86.1981,83.9975,85.0836,"[[1390, 216], [257, 1349]]"
+validation_five_fold_out_of_fold,logistic_forensic_with_flip,3212,82.9701,82.9701,85.136,79.8879,82.4285,"[[1382, 224], [323, 1283]]"
+validation_five_fold_out_of_fold,histogram_forensic_with_flip,3212,89.259,89.259,88.8478,89.7883,89.3156,"[[1425, 181], [164, 1442]]"
+validation_five_fold_out_of_fold,random_forest_forensic_with_flip,3212,85.0872,85.0872,86.5672,83.0635,84.7792,"[[1399, 207], [272, 1334]]"
+untouched_test_after_validation_only_fit,histogram_forensic_no_flip,3212,72.6339,72.6339,80.4184,59.8381,68.6184,"[[1372, 234], [645, 961]]"
