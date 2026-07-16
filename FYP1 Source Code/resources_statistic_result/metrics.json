@@ -1,0 +1,468 @@
+[
+  {
+    "system": "model_set1_xception",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 62.0,
+    "precision_fake_percent": 77.2727,
+    "recall_fake_percent": 34.0,
+    "f1_fake_percent": 47.2222,
+    "confusion_matrix_real_fake": [
+      [
+        45,
+        5
+      ],
+      [
+        33,
+        17
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 5.304617,
+    "process_cpu_seconds": 8.265625,
+    "process_cpu_utilization_percent": 6.4925,
+    "mean_image_inference_ms": 13.998831,
+    "median_image_inference_ms": 10.88835,
+    "p95_image_inference_ms": 16.193125,
+    "peak_process_ram_mb": 1168.3164,
+    "peak_gpu_allocated_mb": 796.1206,
+    "peak_gpu_reserved_mb": 1316.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "xception": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\xception_best_ds1_epoch8.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set1_resnet",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 52.0,
+    "precision_fake_percent": 55.5556,
+    "recall_fake_percent": 20.0,
+    "f1_fake_percent": 29.4118,
+    "confusion_matrix_real_fake": [
+      [
+        42,
+        8
+      ],
+      [
+        40,
+        10
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 5.304617,
+    "process_cpu_seconds": 8.265625,
+    "process_cpu_utilization_percent": 6.4925,
+    "mean_image_inference_ms": 12.028124,
+    "median_image_inference_ms": 11.3607,
+    "p95_image_inference_ms": 15.91954,
+    "peak_process_ram_mb": 1168.3164,
+    "peak_gpu_allocated_mb": 796.1206,
+    "peak_gpu_reserved_mb": 1316.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "resnet": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\resnet_best_ds1_epoch8.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set1_vit",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 64.0,
+    "precision_fake_percent": 73.3333,
+    "recall_fake_percent": 44.0,
+    "f1_fake_percent": 55.0,
+    "confusion_matrix_real_fake": [
+      [
+        42,
+        8
+      ],
+      [
+        28,
+        22
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 5.304617,
+    "process_cpu_seconds": 8.265625,
+    "process_cpu_utilization_percent": 6.4925,
+    "mean_image_inference_ms": 10.515974,
+    "median_image_inference_ms": 10.2108,
+    "p95_image_inference_ms": 12.339205,
+    "peak_process_ram_mb": 1168.3164,
+    "peak_gpu_allocated_mb": 796.1206,
+    "peak_gpu_reserved_mb": 1316.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "vit": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\vit_best_ds1_epoch8.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set1_dft",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 46.0,
+    "precision_fake_percent": 46.5517,
+    "recall_fake_percent": 54.0,
+    "f1_fake_percent": 50.0,
+    "confusion_matrix_real_fake": [
+      [
+        19,
+        31
+      ],
+      [
+        23,
+        27
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 5.304617,
+    "process_cpu_seconds": 8.265625,
+    "process_cpu_utilization_percent": 6.4925,
+    "mean_image_inference_ms": 6.964111,
+    "median_image_inference_ms": 7.7581,
+    "p95_image_inference_ms": 9.43036,
+    "peak_process_ram_mb": 1168.3164,
+    "peak_gpu_allocated_mb": 796.1206,
+    "peak_gpu_reserved_mb": 1316.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "dft": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\dft_average_ds1_epoch10.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set1_canny",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 63.0,
+    "precision_fake_percent": 61.8182,
+    "recall_fake_percent": 68.0,
+    "f1_fake_percent": 64.7619,
+    "confusion_matrix_real_fake": [
+      [
+        29,
+        21
+      ],
+      [
+        16,
+        34
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 5.304617,
+    "process_cpu_seconds": 8.265625,
+    "process_cpu_utilization_percent": 6.4925,
+    "mean_image_inference_ms": 3.22306,
+    "median_image_inference_ms": 3.02035,
+    "p95_image_inference_ms": 4.27153,
+    "peak_process_ram_mb": 1168.3164,
+    "peak_gpu_allocated_mb": 796.1206,
+    "peak_gpu_reserved_mb": 1316.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "canny": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\canny_best_ds1_epoch10.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set1_five_model_ensemble",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 56.0,
+    "precision_fake_percent": 65.0,
+    "recall_fake_percent": 26.0,
+    "f1_fake_percent": 37.1429,
+    "confusion_matrix_real_fake": [
+      [
+        43,
+        7
+      ],
+      [
+        37,
+        13
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 5.304617,
+    "process_cpu_seconds": 8.265625,
+    "process_cpu_utilization_percent": 6.4925,
+    "mean_image_inference_ms": 46.821201,
+    "median_image_inference_ms": 43.63675,
+    "p95_image_inference_ms": 54.57919,
+    "peak_process_ram_mb": 1168.3164,
+    "peak_gpu_allocated_mb": 796.1206,
+    "peak_gpu_reserved_mb": 1316.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "xception": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\xception_best_ds1_epoch8.pth",
+      "resnet": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\resnet_best_ds1_epoch8.pth",
+      "vit": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\vit_best_ds1_epoch8.pth",
+      "dft": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\dft_average_ds1_epoch10.pth",
+      "canny": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\canny_best_ds1_epoch10.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together",
+    "ensemble_members": [
+      "xception",
+      "resnet",
+      "vit",
+      "dft",
+      "canny"
+    ]
+  },
+  {
+    "system": "model_set2_xception",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 49.0,
+    "precision_fake_percent": 49.0196,
+    "recall_fake_percent": 50.0,
+    "f1_fake_percent": 49.505,
+    "confusion_matrix_real_fake": [
+      [
+        24,
+        26
+      ],
+      [
+        25,
+        25
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 4.644665,
+    "process_cpu_seconds": 6.796875,
+    "process_cpu_utilization_percent": 6.0974,
+    "mean_image_inference_ms": 9.806299,
+    "median_image_inference_ms": 9.5971,
+    "p95_image_inference_ms": 11.701235,
+    "peak_process_ram_mb": 1171.5352,
+    "peak_gpu_allocated_mb": 896.1812,
+    "peak_gpu_reserved_mb": 1572.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "xception": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\xception_best_ds2_epoch8.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set2_resnet",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 66.0,
+    "precision_fake_percent": 64.8148,
+    "recall_fake_percent": 70.0,
+    "f1_fake_percent": 67.3077,
+    "confusion_matrix_real_fake": [
+      [
+        31,
+        19
+      ],
+      [
+        15,
+        35
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 4.644665,
+    "process_cpu_seconds": 6.796875,
+    "process_cpu_utilization_percent": 6.0974,
+    "mean_image_inference_ms": 10.575438,
+    "median_image_inference_ms": 10.23615,
+    "p95_image_inference_ms": 13.808605,
+    "peak_process_ram_mb": 1171.5352,
+    "peak_gpu_allocated_mb": 896.1812,
+    "peak_gpu_reserved_mb": 1572.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "resnet": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\resnet_best_ds2_epoch8.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set2_vit",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 48.0,
+    "precision_fake_percent": 48.4848,
+    "recall_fake_percent": 64.0,
+    "f1_fake_percent": 55.1724,
+    "confusion_matrix_real_fake": [
+      [
+        16,
+        34
+      ],
+      [
+        18,
+        32
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 4.644665,
+    "process_cpu_seconds": 6.796875,
+    "process_cpu_utilization_percent": 6.0974,
+    "mean_image_inference_ms": 10.82831,
+    "median_image_inference_ms": 9.95265,
+    "p95_image_inference_ms": 14.196,
+    "peak_process_ram_mb": 1171.5352,
+    "peak_gpu_allocated_mb": 896.1812,
+    "peak_gpu_reserved_mb": 1572.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "vit": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\vit_best_ds2_epoch8.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set2_dft",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 50.0,
+    "precision_fake_percent": 50.0,
+    "recall_fake_percent": 32.0,
+    "f1_fake_percent": 39.0244,
+    "confusion_matrix_real_fake": [
+      [
+        34,
+        16
+      ],
+      [
+        34,
+        16
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 4.644665,
+    "process_cpu_seconds": 6.796875,
+    "process_cpu_utilization_percent": 6.0974,
+    "mean_image_inference_ms": 6.483495,
+    "median_image_inference_ms": 7.3797,
+    "p95_image_inference_ms": 8.13968,
+    "peak_process_ram_mb": 1171.5352,
+    "peak_gpu_allocated_mb": 896.1812,
+    "peak_gpu_reserved_mb": 1572.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "dft": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\dft_best_ds2_epoch10.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set2_canny",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 49.0,
+    "precision_fake_percent": 46.1538,
+    "recall_fake_percent": 12.0,
+    "f1_fake_percent": 19.0476,
+    "confusion_matrix_real_fake": [
+      [
+        43,
+        7
+      ],
+      [
+        44,
+        6
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 4.644665,
+    "process_cpu_seconds": 6.796875,
+    "process_cpu_utilization_percent": 6.0974,
+    "mean_image_inference_ms": 2.84902,
+    "median_image_inference_ms": 2.7697,
+    "p95_image_inference_ms": 3.689515,
+    "peak_process_ram_mb": 1171.5352,
+    "peak_gpu_allocated_mb": 896.1812,
+    "peak_gpu_reserved_mb": 1572.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "canny": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\canny_best_ds2_epoch10.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together"
+  },
+  {
+    "system": "model_set2_five_model_ensemble",
+    "sample_count_requested": 100,
+    "sample_count_evaluated": 100,
+    "real_count": 50,
+    "fake_count": 50,
+    "errors": 0,
+    "accuracy_percent": 53.0,
+    "precision_fake_percent": 52.9412,
+    "recall_fake_percent": 54.0,
+    "f1_fake_percent": 53.4653,
+    "confusion_matrix_real_fake": [
+      [
+        26,
+        24
+      ],
+      [
+        23,
+        27
+      ]
+    ],
+    "binary_threshold": 0.5,
+    "wall_seconds": 4.644665,
+    "process_cpu_seconds": 6.796875,
+    "process_cpu_utilization_percent": 6.0974,
+    "mean_image_inference_ms": 40.625215,
+    "median_image_inference_ms": 40.3357,
+    "p95_image_inference_ms": 51.170225,
+    "peak_process_ram_mb": 1171.5352,
+    "peak_gpu_allocated_mb": 896.1812,
+    "peak_gpu_reserved_mb": 1572.0,
+    "parameter_count_total": 198526829,
+    "checkpoints": {
+      "xception": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\xception_best_ds2_epoch8.pth",
+      "resnet": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\resnet_best_ds2_epoch8.pth",
+      "vit": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\vit_best_ds2_epoch8.pth",
+      "dft": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\dft_best_ds2_epoch10.pth",
+      "canny": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\canny_best_ds2_epoch10.pth"
+    },
+    "resource_scope": "all five FYP1 models resident together",
+    "ensemble_members": [
+      "xception",
+      "resnet",
+      "vit",
+      "dft",
+      "canny"
+    ]
+  }
+]
