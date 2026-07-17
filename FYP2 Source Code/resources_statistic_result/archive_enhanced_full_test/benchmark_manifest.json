@@ -1,0 +1,24 @@
+{
+  "created_at_local": "2026-07-15T17:11:24",
+  "script": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\FYP2 Source Code\\deepfake_detector.py",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "checkpoint": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\FYP2 Source Code\\models\\efficientnet_b0_best.pth",
+  "checkpoint_sha256": "e0ef4e26c5329f4011109e46e284b91f9c72dbfa2b131f09aab035cc5da4ccae",
+  "calibrator": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\FYP2 Source Code\\models\\efficientnet_b0_forensic_calibrator.joblib",
+  "calibrator_sha256": "4f011a9658406822fa91e0f8fccdf9138c42f52fb10b9075f91582e76e7ed835",
+  "dataset_root": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\test",
+  "sample_count": 3212,
+  "real_count": 1606,
+  "fake_count": 1606,
+  "limit_per_class": null,
+  "seed": 42,
+  "device_used": "cuda",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "nvidia_smi": {
+    "available": true,
+    "raw": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 581.83"
+  },
+  "provenance_note": "Integrated FYP2 benchmark; one EfficientNet-B0 pass plus a validation-trained forensic calibration layer. The CNN checkpoint is unchanged and Flask is not started."
+}

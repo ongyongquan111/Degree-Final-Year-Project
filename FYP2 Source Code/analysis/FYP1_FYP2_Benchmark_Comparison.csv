@@ -1,0 +1,4 @@
+system,architecture,sample_count,real_count,fake_count,accuracy_percent,precision_fake_percent,recall_fake_percent,f1_fake_percent,mean_model_inference_ms,mean_full_image_processing_ms,peak_ram_mb,peak_gpu_allocated_mb,parameter_count,comparison_note
+FYP1 Ensemble Set 1,"Xception + ResNet + ViT + DFT CNN + Canny CNN",100,50,50,56.0,65.0,26.0,37.1429,46.821201,N/A,1168.3164,796.1206,198526829,"Five-model ensemble; mean model inference includes all five members"
+FYP1 Ensemble Set 2,"Xception + ResNet + ViT + DFT CNN + Canny CNN",100,50,50,53.0,52.9412,54.0,53.4653,40.625215,N/A,1171.5352,896.1812,198526829,"Five-model ensemble; mean model inference includes all five members"
+Enhanced FYP2,"EfficientNet-B0 + validation-trained forensic calibration",100,50,50,62.0,67.6471,46.0,54.7619,17.146878,25.892738,962.0469,28.7271,4008829,"One CNN pass plus DFT/Canny/blur/noise feature calibration; values come from the final seed-42 common benchmark"

@@ -1,0 +1,47 @@
+{
+  "selected_method": "histogram_forensic_no_flip",
+  "selected_features": [
+    "fake_probability_logit",
+    "high_low_frequency_ratio",
+    "edge_density",
+    "log_blur_score",
+    "noise_residual_std"
+  ],
+  "validation_candidate_balanced_accuracy_percent": {
+    "logistic_score_calibration": 57.0361,
+    "logistic_forensic_no_flip": 83.0324,
+    "histogram_forensic_no_flip": 88.9477,
+    "random_forest_forensic_no_flip": 85.274,
+    "logistic_forensic_with_flip": 82.9701,
+    "histogram_forensic_with_flip": 89.259,
+    "random_forest_forensic_with_flip": 85.0872
+  },
+  "selected_untouched_test_metrics": {
+    "scope": "untouched_test_after_validation_only_fit",
+    "method": "histogram_forensic_no_flip",
+    "sample_count": 3212,
+    "accuracy_percent": 72.6339,
+    "balanced_accuracy_percent": 72.6339,
+    "precision_fake_percent": 80.4184,
+    "recall_fake_percent": 59.8381,
+    "f1_fake_percent": 68.6184,
+    "confusion_matrix_real_fake": [
+      [
+        1372,
+        234
+      ],
+      [
+        645,
+        961
+      ]
+    ]
+  },
+  "exact_overlap_report": {
+    "validation_unique_image_hashes": 3205,
+    "test_unique_image_hashes": 3209,
+    "exact_cross_split_overlap": 0
+  },
+  "model_artifact": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\FYP2 Source Code\\models\\efficientnet_b0_forensic_calibrator.joblib",
+  "model_artifact_sha256": "4f011a9658406822fa91e0f8fccdf9138c42f52fb10b9075f91582e76e7ed835",
+  "scientific_scope": "The CNN checkpoint is unchanged. The calibrator was selected and fitted on the external validation split, then evaluated on a separate untouched test split from the same benchmark. This is domain calibration, not zero-shot OOD performance."
+}

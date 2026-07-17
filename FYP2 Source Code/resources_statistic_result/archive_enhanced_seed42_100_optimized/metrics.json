@@ -1,0 +1,64 @@
+{
+  "system": "fyp2_efficientnet_b0_forensic_calibrated",
+  "model": "EfficientNet-B0 + validated forensic calibration",
+  "sample_count_requested": 100,
+  "sample_count_evaluated": 100,
+  "real_count": 50,
+  "fake_count": 50,
+  "errors": 0,
+  "accuracy_percent": 62.0,
+  "precision_fake_percent": 67.6471,
+  "recall_fake_percent": 46.0,
+  "f1_fake_percent": 54.7619,
+  "confusion_matrix_real_fake": [
+    [
+      39,
+      11
+    ],
+    [
+      27,
+      23
+    ]
+  ],
+  "binary_threshold": 0.5,
+  "wall_seconds": 7.405868,
+  "process_cpu_seconds": 12.0625,
+  "process_cpu_utilization_percent": 6.7866,
+  "mean_cnn_inference_ms": 40.60176,
+  "mean_image_processing_ms": 60.05698,
+  "median_image_processing_ms": 52.78795,
+  "p95_image_processing_ms": 63.52589,
+  "raw_efficientnet_baseline": {
+    "accuracy_percent": 38.0,
+    "precision_fake_percent": 32.3529,
+    "recall_fake_percent": 22.0,
+    "f1_fake_percent": 26.1905,
+    "confusion_matrix_real_fake": [
+      [
+        27,
+        23
+      ],
+      [
+        39,
+        11
+      ]
+    ],
+    "binary_threshold": 0.5
+  },
+  "calibration_applied": true,
+  "calibrator_method": "histogram_forensic_no_flip",
+  "calibrator": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\FYP2 Source Code\\models\\efficientnet_b0_forensic_calibrator.joblib",
+  "calibrator_sha256": "4f011a9658406822fa91e0f8fccdf9138c42f52fb10b9075f91582e76e7ed835",
+  "peak_process_ram_mb": 960.8164,
+  "peak_gpu_allocated_mb": 34.1821,
+  "peak_gpu_reserved_mb": 58.0,
+  "parameter_count": 4008829,
+  "checkpoint": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\FYP2 Source Code\\models\\efficientnet_b0_best.pth",
+  "checkpoint_sha256": "e0ef4e26c5329f4011109e46e284b91f9c72dbfa2b131f09aab035cc5da4ccae",
+  "checkpoint_size_mb": 15.581609,
+  "dataset_root": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\test",
+  "device_used": "cuda",
+  "torch_version": "2.7.1+cu128",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

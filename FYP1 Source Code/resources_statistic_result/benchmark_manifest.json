@@ -1,0 +1,72 @@
+{
+  "created_at_local": "2026-07-15T17:19:29",
+  "script": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\deepfake_detector.py",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dataset_root": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\test",
+  "sample_count": 100,
+  "real_count": 50,
+  "fake_count": 50,
+  "limit_per_class": 50,
+  "seed": 42,
+  "model_sets": [
+    {
+      "model_set": "model_set1",
+      "checkpoints": {
+        "xception": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\xception_best_ds1_epoch8.pth",
+          "sha256": "1757148f11ef7872ececda8ade3eb5fe1c5a34a2157546d47276bd194c4175ce"
+        },
+        "resnet": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\resnet_best_ds1_epoch8.pth",
+          "sha256": "7f4b2e4db5398aede076205706266202a22bdc97fdc9e5bd034f9f69626a8d89"
+        },
+        "vit": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\vit_best_ds1_epoch8.pth",
+          "sha256": "11f86fda4838e61cf66a44e3794bc374b763c3d00b51c0048431c9634212943e"
+        },
+        "dft": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\dft_average_ds1_epoch10.pth",
+          "sha256": "e378d8cae9a7fcf3947ef18c570c3a889710bd14bd08db1ef7d855a1da4a2614"
+        },
+        "canny": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set1\\canny_best_ds1_epoch10.pth",
+          "sha256": "56c10476a389c41fb15ed7a00e08f80e3c3e64c1d49136c5cfd170ec936e0e2c"
+        }
+      }
+    },
+    {
+      "model_set": "model_set2",
+      "checkpoints": {
+        "xception": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\xception_best_ds2_epoch8.pth",
+          "sha256": "75d57fdd3e80cdad6ae202451985393cc3ea39f07a39fa16e5b23173d5800165"
+        },
+        "resnet": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\resnet_best_ds2_epoch8.pth",
+          "sha256": "73b4bf1817c7f2892ecd8d833bf9fae8da4a306d482e001285d26d082aca1580"
+        },
+        "vit": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\vit_best_ds2_epoch8.pth",
+          "sha256": "62f85ccb69e47c5199d1b0fd3e9101210fba7f70df7fe34b63e2da1cf033a8f5"
+        },
+        "dft": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\dft_best_ds2_epoch10.pth",
+          "sha256": "6b61c2a22b92ec1c30526922d84a6c1e4de5715a0ec84587db88df7d011e1917"
+        },
+        "canny": {
+          "path": "C:\\Users\\HP\\Desktop\\FYP1 Source Code\\model_set2\\canny_best_ds2_epoch10.pth",
+          "sha256": "58fa97934c06d8579a75b396f96c9801a1009135f7effd3ad9f2e38efb421a9e"
+        }
+      }
+    }
+  ],
+  "device_used": "cuda",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "nvidia_smi": {
+    "available": true,
+    "raw": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 581.83"
+  },
+  "provenance_note": "Integrated FYP1 benchmark; evaluates the five FYP1 model members together and does not start Flask."
+}
